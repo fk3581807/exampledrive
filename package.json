@@ -6,9 +6,10 @@
     "build": "echo 'Building...' && exit 0"
   },
   "dependencies": {
-    "node-telegram-bot-api": "^2.0.0",
+    "node-telegram-bot-api": "*",
     "express": "^4.17.1"
   }
 }
+
 
 
