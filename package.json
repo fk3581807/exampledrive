@@ -1,0 +1,4 @@
+
+bash
+npm init
+npm install node-telegram-bot-api express
