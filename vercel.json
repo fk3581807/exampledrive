@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "vercel-bot.js",
-      "use": "@vercel/static-build"
-    }
-  ],
   "routes": [
     {
       "src": "/webhook",
