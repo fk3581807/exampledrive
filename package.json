@@ -1,3 +1,4 @@
+
 {
   "name": "telegram-bot-vercel",
   "version": "1.0.0",
@@ -6,7 +7,7 @@
     "build": "echo 'Building...' && exit 0"
   },
   "dependencies": {
-    "node-telegram-bot-api": "^2.0.0",  // Update version
+    "node-telegram-bot-api": "^2.0.0",
     "express": "^4.17.1"
   }
 }
