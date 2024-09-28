@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "outputDirectory": "public",
+  "builds": [
+    {
+      "src": "vercel-bot.js",
+      "use": "@vercel/node"
+    }
+  ],
   "routes": [
     {
       "src": "/webhook",
@@ -8,4 +13,5 @@
     }
   ]
 }
+
 
